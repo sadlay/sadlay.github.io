@@ -1,18 +1,17 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: Focus on Coding Bug >_<
+keywords: Sadlay, Lay
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是Lay，专注写Bug。
 
-仰慕「优雅编码的艺术」。
+Never Give Up!
 
-坚信熟能生巧，努力改变人生。
 
 ## 联系
 
