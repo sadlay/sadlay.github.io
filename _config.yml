@@ -4,10 +4,10 @@
 baseurl:
 url: https://sadlay.github.io
 date_format: "ordinal"
-title: sadlay's github blog
+title: Sadlay的博客
 subtitle: "Focus on Coding ug"
 description: "sadlay's github blog"
-keywords: sadlay, Sadlay, layanan, lay
+keywords: sadlay, lay, layanan
 timezone: Asia/Beijing
 encoding: "utf-8"
 side_bar_repo_limit: 5
