@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://blog.layanan.cn
+url: https://sadlay.github.io/
 date_format: "ordinal"
 title: 码志
 subtitle: "focus on coding bug"
