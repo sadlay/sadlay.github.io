@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logback自定义日志格式
+title: SLF4J使用MDC和基于Logback 的实现分析
 categories: Log
 description: SLF4J使用MDC和基于Logback 的实现分析
 keywords: Java, Log, LogBack
