@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring中的Bean的生命周期流程
-categories: spring
+categories: Spring
 description:使用Spring框架，我们需要了解Bean的创建加载过程，需要熟悉Bean是如何获取和使用的。
 keywords: Spring, Bean, Lifecycle 
 ---
