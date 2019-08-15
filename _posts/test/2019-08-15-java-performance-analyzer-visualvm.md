@@ -187,7 +187,7 @@ CPU 性能分析的主要目的是统计函数的调用情况及执行时间，�
 
 没有程序运行时的 CPU 使用情况如下图：
 
-![img](https://images0.cnblogs.com/blog2015/713188/201504/161122229177820.jpg)
+![img](https://ws4.sinaimg.cn/large/007DFXDhly1g606hgyg35j30oa0j0t9y.jpg)
 
  
 
@@ -240,7 +240,7 @@ public class MemoryCpuTest {
 
 查看监视页面 Monitor tab
 
-![img](https://images0.cnblogs.com/blog2015/713188/201504/161130330573712.jpg)
+![img](https://ws4.sinaimg.cn/large/007DFXDhly1g606hhg23sj30wy0myju5.jpg)
 
  
 
@@ -254,11 +254,11 @@ public class MemoryCpuTest {
 
 在CPU samples tab 下可以看到我们的方法cpufix() 的自用时间最长， 如下图：
 
-![img](https://images0.cnblogs.com/blog2015/713188/201504/161136033702567.jpg)
+![img](https://ws4.sinaimg.cn/large/007DFXDhly1g606hi958nj30wy0my0x5.jpg)
 
 切换到Thread CPU Time 页面下，我们的 main 函数这个进程 占用CPU时间最长， 如下图：
 
-![img](https://images0.cnblogs.com/blog2015/713188/201504/161134258855881.jpg)
+![img](https://ws4.sinaimg.cn/large/007DFXDhly1g606hixfv6j30wy0myjuh.jpg)
 
 
 
@@ -309,7 +309,7 @@ Live threads 从11增加两个 变成13了
 
 Daemon threads从8增加两个 变成10了 
 
-![img](https://images0.cnblogs.com/blog2015/713188/201504/161251470573544.jpg)
+![img](https://ws1.sinaimg.cn/large/007DFXDhly1g606hjlabqj30wy0myad4.jpg)
 
  
 
@@ -317,13 +317,13 @@ VisualVM 的线程标签提供了三种视图，默认会以时间线的方式�
 
 可以看到两个我们run的程序里启的线程：My-Thread-1 和 My-Thread-2
 
-![img](https://images0.cnblogs.com/blog2015/713188/201504/161252575736635.jpg)
+![img](https://ws2.sinaimg.cn/large/007DFXDhly1g606hk91emj30wy0my0w4.jpg)
 
  
 
 另外还有两种视图分别是表视图和详细信息视图， 这里看一下每个Thread的详细视图：
 
-![img](https://images0.cnblogs.com/blog2015/713188/201504/161255192456987.jpg)
+![img](https://ws3.sinaimg.cn/large/007DFXDhly1g606hkyty9j30zh0owwie.jpg)
 
 
 
@@ -418,7 +418,7 @@ public class DeadLock {
 
 另外可以点击Thread Dump 线程转储，进一步分析，在这里就不赘述了，有兴趣的读者可以自行实验。
 
- ![img](https://images0.cnblogs.com/blog2015/713188/201504/161452296829314.jpg)
+ ![img](https://ws3.sinaimg.cn/large/007DFXDhly1g606hm5q8pj30zh0owq9c.jpg)
 
  
 
