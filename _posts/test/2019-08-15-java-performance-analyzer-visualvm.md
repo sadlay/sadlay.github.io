@@ -22,9 +22,8 @@ VisualVM 通过检测 JVM 中加载的类和对象信息等帮助我们分析内
 
 首先我们来看内存堆Heap使用情况，我本机eclipse的进程在visualVM显示如下：
 
-![img](https://images0.cnblogs.com/blog2015/713188/201504/031621407646615.jpg)
+![031621407646615 (1)](https://tva1.sinaimg.cn/large/007DFXDhgy1g6065z8b2rj30wy0my42y.jpg)
 
- 
 
 随便写个小程序占用内存大的，运行一下
 
@@ -75,11 +74,10 @@ public class JavaHeapTest {
 }
 ```
 
-[![复制代码](https://common.cnblogs.com/images/copycode.gif)](javascript:void(0);)
 
 查看VisualVM Monitor tab, 堆内存变大了
 
-![img](https://images0.cnblogs.com/blog2015/713188/201504/031654534825262.jpg)
+![img](https://tva4.sinaimg.cn/large/007DFXDhgy1g6066en66mj30ru0jo769.jpg)
 
  
 
@@ -87,19 +85,19 @@ public class JavaHeapTest {
 
 点击Classes， 发现char[]所占用的内存是最大的
 
-![img](https://images0.cnblogs.com/blog2015/713188/201504/031656436542038.jpg)
+![img](https://tva2.sinaimg.cn/large/007DFXDhgy1g606bx8j72j30rq0jmq5x.jpg)
 
  
 
 双击它，得到如下Instances结果
 
-![img](https://images0.cnblogs.com/blog2015/713188/201504/031658008733480.jpg)
+![img](https://tva4.sinaimg.cn/large/007DFXDhly1g606hg8vd3j30rp0jp779.jpg)
 
  Instances是按Size由大到小排列的
 
 第一个就是最大的， 展开Field区域的 values
 
-![img](https://images0.cnblogs.com/blog2015/713188/201504/031701015459117.jpg)
+![img](https://ws2.sinaimg.cn/large/007DFXDhly1g606hgf32qj30l107a74m.jpg)
 
 StringBuffer类型的 全局变量 tempOOM 占用内存特别大， 注意局部变量是无法通过 堆dump来得到分析结果的。
 
@@ -113,7 +111,6 @@ StringBuffer类型的 全局变量 tempOOM 占用内存特别大， 注意局部
 
 运行一段类加载的程序，代码如下：
 
-[![复制代码](https://common.cnblogs.com/images/copycode.gif)](javascript:void(0);)
 
 ```java
 package jvisualVM;
@@ -168,7 +165,7 @@ public class TestPermGen {
 
 运行一段时间后抛OutOfMemoryError了， VisualVM监控结果如下：
 
-![img](https://images0.cnblogs.com/blog2015/713188/201504/031716544987051.jpg)
+![img](https://ws1.sinaimg.cn/large/007DFXDhly1g606hgqm28j30rn0jo40j.jpg)
 
  
 
@@ -196,7 +193,6 @@ CPU 性能分析的主要目的是统计函数的调用情况及执行时间，�
 
 运行一段 占用CPU 的小程序，代码如下
 
-[![复制代码](https://common.cnblogs.com/images/copycode.gif)](javascript:void(0);)
 
 ```java
 package jvisualVM;
