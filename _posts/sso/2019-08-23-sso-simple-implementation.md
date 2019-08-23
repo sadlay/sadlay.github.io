@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 单点登陆简单实现（完全跨域、单点退出）
+title: SSO单点登陆基于Session简单实现
 categories: Sso
 description: 单点登陆基于Session的简单实现，包括完全跨域、单点退出等。
 keywords: sso, Java
 ---
 
 
-# 单点登陆简单实现（完全跨域、单点退出）
+# SSO单点登陆基于Session简单实现
 
 ## 单点登陆活动图
 
