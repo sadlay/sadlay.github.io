@@ -331,7 +331,7 @@ public class TicketManagerServiceImpl implements TicketManagerService{
 }  
 ```
 
-### 1.3 单点退出接口（**对外restful webservice发布**）
+### 1.3 单点退出接口（对外restful webservice发布）
 
 ```java
 package com.ffcs.sso.service;  
