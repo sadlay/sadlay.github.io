@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://sadlay.github.io
+url: https://blog.sadlay.cn
 date_format: "ordinal"
 title: Sadlay的博客
 subtitle: "Focus On Coding Bug >_<"
